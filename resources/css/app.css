@@ -1,0 +1,74 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    .form-required::after {
+        content: "*";
+        @apply text-red-600 ml-1;
+    }
+}
+
+.welcome-nav-a {
+    @apply text-gray-600 hover:text-green-600 transition-all;
+}
+
+.welcome-footer-a {
+    @apply hover:text-white transition-all;
+}
+
+.success-notify {
+    @apply fixed top-6 right-4 flex items-center w-full max-w-xs p-4 text-gray-500 bg-white rounded-lg shadow-sm dark:text-white dark:bg-gray-500 z-50;
+}
+
+.success-notify-closebtn {
+    @apply ms-auto -mx-1.5 -my-1.5 bg-white text-gray-400 hover:text-gray-900 rounded-lg focus:ring-2 focus:ring-gray-300 p-1.5 hover:bg-gray-100 inline-flex items-center justify-center h-8 w-8 dark:text-white dark:hover:text-white dark:bg-gray-500 dark:hover:bg-gray-600;
+}
+
+.form-container {
+    @apply flex flex-col bg-gray-50 rounded-b-lg p-4 shadow-sm border border-gray-300;
+}
+
+.form-title {
+    @apply text-white font-bold text-xl sm:text-2xl md:text-3xl lg:text-4xl;
+}
+
+.form-label {
+    @apply text-black;
+}
+
+.form-container-div {
+    @apply mt-4 flex flex-row space-x-2;
+}
+
+.form-container-input {
+    @apply flex-1;
+}
+
+.form-input {
+    @apply w-full bg-white rounded-md border-gray-300 text-black placeholder-gray-400 px-2 py-1;
+}
+
+.form-error-msg {
+    @apply text-red-500 text-sm mt-1;
+}
+
+.form-container-btn {
+    @apply mt-4 flex justify-end;
+}
+
+.form-btn {
+    @apply relative inline-flex items-center justify-center p-0.5 mb-2 me-2 overflow-hidden text-sm font-medium text-gray-900 rounded-lg bg-gradient-to-br from-lime-700 to-black dark:text-white dark:hover:text-gray-900 focus:ring-2 focus:outline-none focus:ring-lime-200 dark:focus:ring-lime-400;
+}
+
+.form-btn-text {
+    @apply relative px-5 py-2.5 transition-all ease-in duration-75 text-white bg-white dark:bg-gray-900 rounded-md group-hover:bg-transparent group-hover:dark:bg-transparent;
+}
+
+.table-gradient {
+    @apply bg-gradient-to-r from-lime-700 via-green-800 to-black;
+}
+
+.table-gradient-components {
+    @apply text-white p-2 sm:p-4 rounded-tl-lg rounded-tr-lg flex items-center justify-between border border-gray-200;
+}
