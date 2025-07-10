@@ -46,11 +46,11 @@
                     <span>Empresas</span>
                 </a>
 
-                <a href="#settings"
+                <a href="{{ route('fleets.index') }}"
                     class="flex items-center px-4 py-2 text-green-800 rounded-md hover:bg-green-100 transition"
                     :class="{ 'bg-green-100 font-semibold': current === 'settings' }">
-                    <i class="fas fa-cog mr-3 w-5 text-green-700"></i>
-                    <span>Configuración</span>
+                    <i class="fa-solid fa-car-side mr-3 w-5 text-green-700"></i>
+                    <span>Vehiculos</span>
                 </a>
 
                 <a href="#logout"
@@ -82,20 +82,20 @@
                 </button>
             </div>
             <nav class="p-4 space-y-2">
-                <a href="#dashboard"
+                <a href="{{ route('dashboard') }}"
                     class="flex items-center px-4 py-2 text-green-800 rounded-md hover:bg-green-100 transition">
                     <i class="fas fa-tachometer-alt mr-3 w-5 text-green-700"></i>
                     <span>Dashboard</span>
                 </a>
-                <a href="#profile"
+                <a href="{{ route('companies.index') }}"
                     class="flex items-center px-4 py-2 text-green-800 rounded-md hover:bg-green-100 transition">
                     <i class="fas fa-user mr-3 w-5 text-green-700"></i>
-                    <span>Perfil</span>
+                    <span>Empresas</span>
                 </a>
-                <a href="#settings"
+                <a href="{{ route('fleets.index') }}"
                     class="flex items-center px-4 py-2 text-green-800 rounded-md hover:bg-green-100 transition">
-                    <i class="fas fa-cog mr-3 w-5 text-green-700"></i>
-                    <span>Configuración</span>
+                    <i class="fa-solid fa-car-side mr-3 w-5 text-green-700"></i>
+                    <span>Vehiculos</span>
                 </a>
                 <a href="#logout"
                     class="flex items-center px-4 py-2 text-green-800 rounded-md hover:bg-green-100 transition">
