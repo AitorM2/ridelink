@@ -18,5 +18,22 @@
 
 **Apartado del dashboard**
 
-![image](https://github.com/user-attachments/assets/08e2160f-810b-4f0b-9fc3-945e4f59cc44)
+<img width="1916" height="942" alt="image" src="https://github.com/user-attachments/assets/f4b48d37-b212-463e-be4c-3bd5b0d5f0a4" />
 
+-----------------------------------------------------------------------------------------------------------------------
+
+**Apartado de empresas**
+
+<img width="1917" height="943" alt="image" src="https://github.com/user-attachments/assets/49ab063f-50e4-40ac-b810-8d28c154be5f" />
+
+-----------------------------------------------------------------------------------------------------------------------
+
+**Apartado de vehiculos**
+
+<img width="1916" height="945" alt="image" src="https://github.com/user-attachments/assets/4292f64d-b47c-4436-843e-f4a1cfe89738" />
+
+-----------------------------------------------------------------------------------------------------------------------
+
+**Notificaciones**
+
+<img width="342" height="95" alt="image" src="https://github.com/user-attachments/assets/733da189-001a-4db1-abdc-3d5d6723ffac" />
